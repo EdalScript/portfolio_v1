@@ -39,6 +39,7 @@ body{
 .button:hover {
     color: #222;
     background: var(--primary);
+    cursor: pointer;
 }
 input, textarea{
     background: rgba(255,255,255,0.05);
