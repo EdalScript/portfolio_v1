@@ -1,3 +1,6 @@
+<?php print_r($_POST); ?>
+<?php include('sentMail.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +15,7 @@
 
 <body>
     <nav class="site-nav grid">
-        <h1><a href="#">EdalScript's Portfolio</a></h1>
+        <h1>EdalScript's Portfolio</h1>
         <ul>
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -87,11 +90,12 @@
     <section id="contact">
         <h3>Get in Touch!</h3>
         <p class="leading"></p>
-        <form action="mailto:edalscript@gmail.com" method="post" enctype="text/plain">
+        <form action="index.php" method="POST">
             <input type="text" name="name" placeholder="Name">
+            <input type="text" name="subject" placeholder="Subject">
             <input type="text" name="mail" placeholder="Email">
-            <textarea name="comment" placeholder="Your message"></textarea>
-            <button type="submit" class="button">SEND</button>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit" name="submit" data-submit="...Sending" class="button">SEND</button>
         </form>
     </section>
     <footer>
