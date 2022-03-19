@@ -1,5 +1,3 @@
-<?php include('sentMail.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,12 +87,12 @@
     <section id="contact">
         <h3>Get in Touch!</h3>
         <p class="leading"></p>
-        <form action="index.php" method="POST">
+        <form action="mailto:edalscript@gmail.com" method="post" enctype="text/plain">
             <input type="text" name="name" placeholder="Name">
             <input type="text" name="subject" placeholder="Subject">
             <input type="text" name="mail" placeholder="Email">
             <textarea name="message" placeholder="Your message"></textarea>
-            <button type="submit" name="submit" data-submit="...Sending" class="button">SEND</button>
+            <button type="submit" data-submit="...Sending" class="button">SEND EMAIL</button>
         </form>
     </section>
     <footer>

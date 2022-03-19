@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_POST['submit'])) {
-    $to = 'edalscript@gmail.com';
+    $to = "edalscript@gmail.com";
 
     //sender's info
     $name = $_POST['name'];
@@ -14,10 +14,12 @@ if (isset($_POST['submit'])) {
         . "Message: " . "\n" . $_POST['message'];
 
     //header 
-    $headers = "From: $mail";
+    $headers = "From: $mail" . "\r\n" .
+    'Reply-To: edalscript@gmail.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
     //mailer
-    $result = mail('edalscript@gmail.com', 'Message from Portfolio', $headers, $subject, $message);
+    $result = mail($to, 'Message from Portfolio', $headers, $subject, $message);
 
     //confirmation on screen
     if ($result) {
