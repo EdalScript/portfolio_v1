@@ -115,6 +115,7 @@ h4{
     width: 120%;
     min-width: 150px;
     padding: 1em;
+    opacity: 0.8;
 }
 .welcome-text a{
     margin: 20px 0;
@@ -223,6 +224,7 @@ footer img{
     } 
     .welcome-img img{
         width: 100%;
+        opacity: 0.8;
     }
     .projects{
         margin-top: 40px;
@@ -324,6 +326,9 @@ footer img{
     #skills,
     #contact{
         padding: 90px 0;
+    }
+    .welcome-img img{
+        opacity: 0.8;
     }
     .projects a:nth-child(1){
         grid-column: 1/3;
