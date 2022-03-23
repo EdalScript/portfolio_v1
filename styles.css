@@ -26,6 +26,9 @@ body{
     overflow-x: clip;
     font-family: 'Rubik Regular';
 }
+#swapper {
+    font-style: italic;
+}
 .button{
     background: none;
     border: 2px solid var(--primary);
