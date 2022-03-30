@@ -370,6 +370,7 @@ footer img{
     }
     .welcome-img img{
         opacity: 0.8;
+        margin-left: 1em;
     }
     .popup-wrapper{
         overflow: hidden;
