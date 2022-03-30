@@ -1,10 +1,12 @@
 const leading = document.getElementById('swapper');
 const text = 
 [
-"\"Whether it is a philosophical comment, a poor attempt at making a funny joke or a web application — You got it!\"" 
+"\"Whether it is a philosophical trivial comment, a pun or a web application — You got it!\"" 
 , "\"I learned in Ruby but now I'm happily married with JavaScript\""
 , "\"I React a lot, but that does not limit my Vue\""
 , "\"I can relocate if needed, just tell me where the coffee is\""
+, "\"Would you believe me if I tell you I wrote this line without my hands?\""
+, "\"I like coding the same way I like my coffee — without bugs\""
 ];
 let counter = 0;
 const interval = setInterval(introChange, 8000);
