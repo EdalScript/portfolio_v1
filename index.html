@@ -1,142 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Portfolio</title>
 </head>
-
 <body>
-    <nav class="site-nav grid">
-        <h1>EdalScript's Portfolio</h1>
-        <ul>
-            <li><a href="#portfolio">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <nav class="site-nav grid">
+    <h1>EdalScript's Portfolio</h1>
+    <ul>
+      <li><a href="#portfolio">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section id="welcome" class="grid">
-        <div class="welcome-text">
-            <h2>Edgar A. Torres B. <br /> Front-End Developer</h2>
-            <p id="swapper" class="leading"></p>
-            <div class="div-wrapper">
-                <a href="#portfolio" class="button">View my work</a>
-                <a id="modal" class="button">Do not click me</a>
-            </div>
+  <section id="welcome" class="grid">
+    <div class="welcome-text">
+      <h2>
+        Edgar A. Torres B. <br />
+        Front-End Developer
+      </h2>
+      <p id="swapper" class="leading"></p>
+      <div class="div-wrapper">
+        <a href="#portfolio" class="button">View my work</a>
+        <a id="modal" class="button">Do not click me</a>
+      </div>
+    </div>
+    <aside class="welcome-img">
+      <img src="assets/profile.jpg" alt="profile picture" />
+    </aside>
+  </section>
+
+  <section>
+    <div class="popup-wrapper">
+      <div class="popup">
+        <div class="popup-close">×</div>
+        <div class="popup-content">
+          <h2>Our search for knowledge</h2>
+          <p>
+            Isn't it interesting that you just clicked a button that was not meant to be clicked?
+            <br />
+            Isn't it curiosity scary but fascinating at the same time? <br /><br />
+            I would like to ask, if I may— What would you like to find? What were you expecting to see?
+            <br />
+            Did you find something interesting?<br /><br />
+            I will tell you something interesting: keep it up! You are a curious human being.
+            <br />
+            Do you know why is that great? <br />
+            You are curious because you want to <b>know</b> what was there.<br />
+            You want to know because you strive for <b>knowledge</b>. <br />
+            Knowledge makes you evolve constantly, it makes you wiser. <br /><br />
+            If you are looking for answers, you will eventually get them because you are a curious person.
+            <br />
+            It may take some time, but rest assured the answers you seek will come over time.
+          </p>
         </div>
-        <aside class="welcome-img">
-            <img src="assets/profile.jpg" alt="profile picture">
-        </aside>
-    </section>
-    <section>
-        <div class="popup-wrapper">
-            <div class="popup">
-                <div class="popup-close">X</div>
-                <div class="popup-content">
-                    <h2>Our search for knowledge</h2>
-                    <p>
-                        Isn't it interesting that you just clicked a button that was not meant to be clicked?
-                        <br />
-                        Isn't it curiosity scary but fascinating at the same time? <br />
-                        <br />
-                        I would like to ask, if I may— What would you like to find? What were you expecting to see?
-                        <br />
-                        Did you find something interesting?<br />
-                        <br />
-                        I will tell you something interesting: keep it up! You are a curious human being. <br />
-                        Do you know why is that great? <br />
-                        You are curious because you want to <b>know</b> what was there.<br />
-                        You want to know because you strive for <b>knowledge</b>. <br />
-                        Knowledge makes you evolve constantly, it makes you wiser. <br />
-                        <br />
-                        If you are looking for answers, you will eventually get them because you are a curious person.
-                        <br />
-                        It may take some time, but rest assured the answers you seek will come over time. <br />
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="portfolio">
-        <h3>Some of my Projects</h3>
-        <div class="projects grid">
-            <a href="https://edalscript.github.io/expenses-tracker/">
-                <img src="assets/p1.png" alt="expenses tracker project link preview">
-                <h4>Expenses Tracker</h4>
-            </a>
-            <a href="https://admirable-khapse-1231ea.netlify.app/">
-                <img src="assets/p2.png" alt="clothing store preview project">
-                <h4>E-Commerce Clothing Store</h4>
-            </a>
-            <a href="https://edalscript.github.io/exchange-calculator/">
-                <img src="assets/p2_2.png" alt="project preview exchange calculator">
-                <h4>Conversor de Divisas</h4>
-            </a>
-        </div>
-    </section>
-    <section id="skills">
-        <h3>Tools & Technologies</h3>
-        <ul class="grid">
-            <li>
-                <img src="assets/html.svg" alt="html5 logo">
-                <h4>HTML5</h4>
-            </li>
-            <li>
-                <img src="assets/css3.svg" alt="css3 logo">
-                <h4>CSS3</h4>
-            </li>
-            <li>
-                <img src="assets/javascript.svg" alt="JavaScript logo">
-                <h4>JavaScript</h4>
-            </li>
-            <li>
-                <img src="assets/react.svg" alt="react.js logo">
-                <h4>React.js</h4>
-            </li>
-            <li>
-                <img src="assets/redux.svg" alt="redux logo">
-                <h4>Redux</h4>
-            </li>
-            <li>
-                <img src="assets/firebase.svg" alt="firebase logo">
-                <h4>Firebase</h4>
-            </li>
-            <li>
-                <img src="assets/git.svg" alt="git logo">
-                <h4>Git</h4>
-            </li>
-            <li>
-                <img src="assets/mysql.svg" alt="mysql database logo">
-                <h4>MySQL</h4>
-            </li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h3>Get in Touch!</h3>
-        <p class="leading"></p>
-        <form action="mailto:edalscript@gmail.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Name">
-            <input type="text" name="mail" placeholder="Email">
-            <textarea name="message" placeholder="Your message"></textarea>
-            <button type="submit" data-submit="...Sending" class="button">SEND EMAIL</button>
-        </form>
-    </section>
-    <footer>
-        <div class="grid">
-            <p class="copyright">@2022 EdalScript</p>
-            <ul class="social">
-                <li><a href="https://github.com/edalscript"><img src="assets/github.png" alt="github logo"></a></li>
-                <li><a href="https://linkedin.com/in/edalscript"><img src="assets/linkedin.svg" alt="linkedin logo"></a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-    <script src="app.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h3>Some of my Projects</h3>
+    <div class="projects grid">
+      <a href="https://edalscript.github.io/expenses-tracker/">
+        <img src="assets/p1.png" alt="expenses tracker project link preview" />
+        <h4>Expenses Tracker</h4>
+      </a>
+      <a href="https://admirable-khapse-1231ea.netlify.app/">
+        <img src="assets/p2.png" alt="clothing store preview project" />
+        <h4>E-Commerce Clothing Store</h4>
+      </a>
+      <a href="https://edalscript.github.io/exchange-calculator/">
+        <img src="assets/p2_2.png" alt="project preview exchange calculator" />
+        <h4>Conversor de Divisas</h4>
+      </a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Tools & Technologies</h3>
+    <ul class="grid">
+      <li>
+        <img src="assets/html.svg" alt="html5 logo" />
+        <h4>HTML5</h4>
+      </li>
+      <li>
+        <img src="assets/css3.svg" alt="css3 logo" />
+        <h4>CSS3</h4>
+      </li>
+      <li>
+        <img src="assets/javascript.svg" alt="JavaScript logo" />
+        <h4>JavaScript</h4>
+      </li>
+      <li>
+        <img src="assets/react.svg" alt="react.js logo" />
+        <h4>React.js</h4>
+      </li>
+      <li>
+        <img src="assets/redux.svg" alt="redux logo" />
+        <h4>Redux</h4>
+      </li>
+      <li>
+        <img src="assets/firebase.svg" alt="firebase logo" />
+        <h4>Firebase</h4>
+      </li>
+      <li>
+        <img src="assets/git.svg" alt="git logo" />
+        <h4>Git</h4>
+      </li>
+      <li>
+        <img src="assets/mysql.svg" alt="mysql database logo" />
+        <h4>MySQL</h4>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h3>Get in Touch!</h3>
+    <p class="leading"></p>
+    <form action="mailto:edalscript@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Name" />
+      <input type="text" name="mail" placeholder="Email" />
+      <textarea name="message" placeholder="Your message"></textarea>
+      <button type="submit" data-submit="...Sending" class="button">SEND EMAIL</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="grid">
+      <p class="copyright">@2022 EdalScript</p>
+      <ul class="social">
+        <li>
+          <a href="https://github.com/edalscript">
+            <img src="assets/github.png" alt="github logo" />
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/edalscript">
+            <img src="assets/linkedin.svg" alt="linkedin logo" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="app.js"></script>
 </body>
-
 </html>
